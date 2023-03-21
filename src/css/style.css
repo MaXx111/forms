@@ -1,3 +1,193 @@
+* {
+    margin: 0;
+}
+
 body {
-    background-color: red;
+    background-color: beige;
+}
+
+.conteiner {
+    padding: 20px 50px 0 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: rgb(202, 172, 115);
+    padding: 20px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.btn:active {
+    background-color: rgb(230, 146, 113);
+}
+
+.msg{
+    position: absolute;
+    padding: 5px 10px;
+    width: 200px;
+    background: #fff;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.taskList {
+    width: 600px;
+    position: relative;
+}
+
+.taskList-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 15px 0;
+}
+
+.task-header-title {
+
+}
+.task-header-iconAdd-link {
+    display: block;
+}
+.task-header-iconAdd {
+    width: 15px;
+    transform: rotate(45deg);
+}
+
+.taskList-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 12px;
+}
+
+.listItem-name {
+
+}
+
+.item-title {
+    padding: 0 0 15px 0;
+}
+
+.textItem {
+    display: block;
+    padding: 5px 0 5px 0;
+}
+
+.listItem-name-item {
+
+}
+
+.listItem-price {
+
+}
+
+.listItem-price-item {
+
+}
+
+.listItem-action {
+
+}
+
+.listItem-action-buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.listItem-action-removeIcon {
+    width: 15px;
+}
+
+.listItem-action-editIcon {
+    width: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.taskList-form {
+    position: absolute;
+    width: 300px;
+    top: 35px;
+    left: 170px;
+    background-color: beige;
+    border: 2px solid rgb(228, 192, 115);
+    border-radius: 5px;
+    padding: 0 17px 17px 17px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item-title {
+    padding: 8px 0 5px 0;
+    font-size: 22px;
+
+}
+
+.input {
+    padding: 5px;
+    border-radius: 33px;
+    border: 1px solid rgb(133, 102, 46);
+}
+
+.input:focus {
+    outline: none;
+    border: 1px solid rgb(255, 197, 88);
+}
+
+.name {
+
+}
+
+.price {
+
+}
+
+.form-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+
+.form-btn {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 1px solid rgb(133, 102, 46);
+}
+
+.form-btn:hover {
+    background-color: rgb(230, 217, 148);
+    border: 1px solid rgb(255, 197, 88);
+}
+
+.form-btn:active {
+    background-color: #fff;
+    border: 1px solid rgb(133, 102, 46);
+}
+
+.form-btn:last-child {
+    margin-right: 0;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid rgb(133, 102, 46);
+    padding: 5px;
+    border-radius: 33px;
 }
