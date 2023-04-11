@@ -20,6 +20,12 @@
           "import/extensions": [
             "error",
             "ignorePackages"
-            ]
+            ],
+            "no-underscore-dangle": 0,
+            "no-new": 0,
+            "no-param-reassign": 0,
+            "consistent-return": 0,
+            "class-methods-use-this": 0,
+            "no-unused-expressions": 0
     }
 }

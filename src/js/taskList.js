@@ -119,7 +119,6 @@ export default class TaskList {
 
   removeTask(id) {
     const elements = this._element.querySelectorAll(`.id${id}`);
-    console.log(elements.length);
     elements.forEach((el) => {
       if (el.className === `listItem-action-editIcon id${id}`) {
         el.parentNode.parentNode.remove();
@@ -134,8 +133,7 @@ export default class TaskList {
     form.classList.add('hidden');
     const toolTips = document.querySelectorAll('.tooltip');
     if (toolTips) {
-      for (let i = 0; i <= toolTips.length - 1; i++) {
-        console.log(toolTips[i]);
+      for (let i = 0; i <= toolTips.length - 1; i += 1) {
         toolTips[i].remove();
       }
     }

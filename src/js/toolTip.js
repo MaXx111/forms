@@ -19,7 +19,7 @@ export default class ToolTip {
     element.style.top = `${top + elem.offsetHeight / 2 - element.offsetHeight / 2}px`;
   }
 
-  removeTooltip(id) {
+  removeTooltip() {
     const tooltip = document.querySelector('.tooltip');
     tooltip.remove();
     this._tooltips = {};
