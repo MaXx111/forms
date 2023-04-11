@@ -132,6 +132,13 @@ export default class TaskList {
   cancelBtn() {
     const form = document.querySelector('.taskList-form');
     form.classList.add('hidden');
+    const toolTips = document.querySelectorAll('.tooltip');
+    if (toolTips) {
+      for (let i = 0; i <= toolTips.length - 1; i++) {
+        console.log(toolTips[i]);
+        toolTips[i].remove();
+      }
+    }
   }
 
   nameElement(name, id) {

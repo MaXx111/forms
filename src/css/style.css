@@ -7,17 +7,16 @@ body {
 }
 
 .conteiner {
-    padding: 20px 50px 0 50px;
+    padding: 150px 50px 0 50px;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .btn {
     background-color: rgb(202, 172, 115);
     padding: 20px;
     position: relative;
-    margin-top: 100px;
 }
 
 .btn:active {
@@ -117,8 +116,8 @@ body {
 .taskList-form {
     position: absolute;
     width: 300px;
-    top: 35px;
-    left: 170px;
+    top: 236px;
+    left: 500px;
     background-color: beige;
     border: 2px solid rgb(228, 192, 115);
     border-radius: 5px;
